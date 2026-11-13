@@ -10,14 +10,14 @@
 
 ## 下载
 
-当前安装包版本为 **1.2.1**。请按设备选择文件，不要同时安装两个 macOS 架构版本。
+当前安装包版本为 **1.3.1**。请按设备选择文件，不要同时安装两个 macOS 架构版本。
 
 | 系统 | 适用设备 | 安装包 |
 | --- | --- | --- |
-| Windows | Windows 10 / 11，64 位 Intel 或 AMD | [NAI-Generator-1.2.1-win-x64-setup.exe](https://github.com/yueyu8277-blip/NAI-generator/releases/download/generator-v1.2.1/NAI-Generator-1.2.1-win-x64-setup.exe) |
-| macOS | Intel 芯片 | [NAI-Generator-1.2.1-mac-x64.dmg](https://github.com/yueyu8277-blip/NAI-generator/releases/download/generator-v1.2.1/NAI-Generator-1.2.1-mac-x64.dmg) |
-| macOS | Apple M 系列芯片 | [NAI-Generator-1.2.1-mac-arm64.dmg](https://github.com/yueyu8277-blip/NAI-generator/releases/download/generator-v1.2.1/NAI-Generator-1.2.1-mac-arm64.dmg) |
-| Android | Android 手机或平板 | [NAI-Generator-1.2.1-android.apk](https://github.com/yueyu8277-blip/NAI-generator/releases/download/generator-v1.2.1/NAI-Generator-1.2.1-android.apk) |
+| Windows | Windows 10 / 11，64 位 Intel 或 AMD | [NAI-Generator-win-x64-setup.exe](https://github.com/yueyu8277-blip/NAI-generator/releases/latest/download/NAI-Generator-win-x64-setup.exe) |
+| macOS | Intel 芯片 | [NAI-Generator-mac-x64.dmg](https://github.com/yueyu8277-blip/NAI-generator/releases/latest/download/NAI-Generator-mac-x64.dmg) |
+| macOS | Apple M 系列芯片 | [NAI-Generator-mac-arm64.dmg](https://github.com/yueyu8277-blip/NAI-generator/releases/latest/download/NAI-Generator-mac-arm64.dmg) |
+| Android | Android 手机或平板 | [NAI-Generator-android.apk](https://github.com/yueyu8277-blip/NAI-generator/releases/latest/download/NAI-Generator-android.apk) |
 
 也可以在 [Releases](https://github.com/yueyu8277-blip/NAI-generator/releases/latest) 页面查看全部文件。
 
@@ -53,7 +53,7 @@ API Key 只用于连接 NovelAI。桌面版会保存在本机；Android 版在�
 
 ### Windows
 
-1. 运行 `NAI-Generator-1.2.1-win-x64-setup.exe`。
+1. 运行 `NAI-Generator-win-x64-setup.exe`。
 2. 选择安装位置，按向导完成安装。
 3. 如果 Microsoft Defender SmartScreen 显示“Windows 已保护你的电脑”，请确认文件来自本仓库，再选择 **更多信息 → 仍要运行**。
 
@@ -88,30 +88,30 @@ Release 中附有 [`SHA256SUMS.txt`](SHA256SUMS.txt)。下载后可核对文件�
 macOS：
 
 ```bash
-shasum -a 256 NAI-Generator-1.2.1-mac-arm64.dmg
-shasum -a 256 NAI-Generator-1.2.1-mac-x64.dmg
+shasum -a 256 NAI-Generator-mac-arm64.dmg
+shasum -a 256 NAI-Generator-mac-x64.dmg
 ```
 
 Windows PowerShell：
 
 ```powershell
-Get-FileHash .\NAI-Generator-1.2.1-win-x64-setup.exe -Algorithm SHA256
+Get-FileHash .\NAI-Generator-win-x64-setup.exe -Algorithm SHA256
 ```
 
 Android APK：
 
 ```bash
-shasum -a 256 NAI-Generator-1.2.1-android.apk
+shasum -a 256 NAI-Generator-android.apk
 ```
 
 ## 本次发布
 
 - 仓库首页已替换为 NAI 生成器下载页。
-- Windows 和两种 macOS 架构的桌面安装包，以及 Android 安装包，均已集中到 `generator-v1.2.1`。
+- Windows 和两种 macOS 架构的桌面安装包，以及 Android 安装包，均已集中到 `v1.3.1`。
 - DMG 已通过镜像校验，APK 已通过压缩包完整性检查。
 - 四个安装包均已生成 SHA-256 校验值。
 
-详细说明见 [发布说明-1.2.1.md](发布说明-1.2.1.md)。
+详细说明见 [NAI Generator v1.3.1](https://github.com/yueyu8277-blip/NAI-generator/releases/tag/v1.3.1)。
 
 ## 已知限制
 

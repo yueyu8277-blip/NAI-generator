@@ -1,4 +1,4 @@
-3e649fd4ac3ef35112bef0f4f35023bafd73b3d59874d913cc42085964cc36bd  NAI-Generator-1.2.1-win-x64-setup.exe
-1e3b1a81af6fbe191ac939ceacdbf97b473f14598e601cd19b843395b5203580  NAI-Generator-1.2.1-mac-x64.dmg
-6cb6d4085fa8708b7e67bf00e765be4025bdd1d5c57e2fe3c7292dd79d7de0be  NAI-Generator-1.2.1-mac-arm64.dmg
-c6a30b12ccac8a53269181287baa82fb645e9c683c75159c9226a5daf2078df9  NAI-Generator-1.2.1-android.apk
+eb56927fb6e933b0f2dd287a7845e3987ae868fcfc2bdcfcad181863affc8b33  NAI-Generator-mac-arm64.dmg
+0a16dd53c41ba614d6e6c933025f2f5ce24c7e1c12878bb498572d793110b793  NAI-Generator-mac-x64.dmg
+83c437dfab5cc1bf66a184df1d0cce21a13fb1704b722dbd243ae968b238fcb1  NAI-Generator-win-x64-setup.exe
+b80a8a290e6ccdc17dfea5d487c124c8f0db60cf31a5a4863f165171200829a7  NAI-Generator-android.apk
