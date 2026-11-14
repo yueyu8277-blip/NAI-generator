@@ -10,7 +10,7 @@
 
 ## 下载
 
-当前安装包版本为 **1.3.2**。请按设备选择文件，不要同时安装两个 macOS 架构版本。
+当前安装包版本为 **1.3.3**。请按设备选择文件，不要同时安装两个 macOS 架构版本。
 
 | 系统 | 适用设备 | 安装包 |
 | --- | --- | --- |
@@ -18,6 +18,7 @@
 | macOS | Intel 芯片 | [NAI-Generator-mac-x64.dmg](https://github.com/yueyu8277-blip/NAI-generator/releases/latest/download/NAI-Generator-mac-x64.dmg) |
 | macOS | Apple M 系列芯片 | [NAI-Generator-mac-arm64.dmg](https://github.com/yueyu8277-blip/NAI-generator/releases/latest/download/NAI-Generator-mac-arm64.dmg) |
 | Android | Android 手机或平板 | [NAI-Generator-android.apk](https://github.com/yueyu8277-blip/NAI-generator/releases/latest/download/NAI-Generator-android.apk) |
+| Web | 网页分发文件 | [NAI-Generator-web.zip](https://github.com/yueyu8277-blip/NAI-generator/releases/latest/download/NAI-Generator-web.zip) |
 
 也可以在 [Releases](https://github.com/yueyu8277-blip/NAI-generator/releases/latest) 页面查看全部文件。
 
@@ -107,11 +108,11 @@ shasum -a 256 NAI-Generator-android.apk
 ## 本次发布
 
 - 仓库首页已替换为 NAI 生成器下载页。
-- Windows 和两种 macOS 架构的桌面安装包，以及 Android 安装包，均已集中到 `v1.3.2`。
+- Windows 和两种 macOS 架构的桌面安装包，以及 Android 安装包和 Web 分发包，均已集中到 `v1.3.3`。
 - DMG 已通过镜像校验，APK 已通过压缩包完整性检查。
 - 四个安装包均已生成 SHA-256 校验值。
 
-详细说明见 [NAI Generator v1.3.2](https://github.com/yueyu8277-blip/NAI-generator/releases/tag/v1.3.2)。
+详细说明见 [NAI Generator v1.3.3](https://github.com/yueyu8277-blip/NAI-generator/releases/tag/v1.3.3)。
 
 ## 已知限制
 
